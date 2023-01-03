@@ -1,0 +1,5 @@
+print("0 = ", bool(0))
+print("-1 = ", bool(-1))
+print("\"\" ", bool(""))
+print("\"0\" ", bool("0"))
+print("False ", bool(False))

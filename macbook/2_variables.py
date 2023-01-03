@@ -11,3 +11,10 @@ print(str(2) + '4')
 
 print(2 + int('4'))
 
+a = None
+
+print(None == False)
+
+print(None == None)
+
+print(a)
