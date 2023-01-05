@@ -21,3 +21,21 @@ print("e = ", e)
 
 f = {} # так получится словарь
 print("type({}) -->", type(f))
+
+# операции с множествами
+
+print(len(e))
+print("'b' in b -->", 'b' in b)
+
+# s == t
+c1 = {"e", "l", "o", "h"}
+print(c == c1)
+
+# s.issubset(t) s <= t
+print(c <= c1)
+
+
+# s.issuperset(t) s >= t
+print(c >= {"h"})
+
+
