@@ -12,3 +12,12 @@ print('b = ', b)
 
 c = set('hello')
 print('c =', c)
+
+d = {'a', "b", "c", "d"}
+print("d = ", d)
+
+e = {i ** 2 for i in range(10)}
+print("e = ", e)
+
+f = {} # так получится словарь
+print("type({}) -->", type(f))
