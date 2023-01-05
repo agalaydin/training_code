@@ -9,3 +9,6 @@ print('a =', a)
 
 b = set(['a', 'b', 'c', 'c', 'a', 'e'])
 print('b = ', b)
+
+c = set('hello')
+print('c =', c)
