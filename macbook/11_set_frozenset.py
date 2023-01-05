@@ -70,3 +70,17 @@ print(b)
 b.remove("h")
 print(b)
 b.discard("z")
+
+# s.pop()
+print(b.pop())
+print(b)
+
+#===================
+# Frozeset (неизменяемые множества)
+a = frozenset("hellow")
+b = set("hellow")
+print(a == b)
+print(type(a - b))
+print(type(b | a))
+b.add("q")
+# a.dd("q") # вызовет ошибку
