@@ -55,3 +55,18 @@ g = e.copy()
 print("e:", id(e))
 print("f:", id(f))
 print("g:", id(g))
+
+# методы, изменяющие множества
+
+# s.update(other, ...) s |= t
+b |= d
+print(b)
+
+# s.intersection_update(t) s ^= t
+b ^= c
+print(b)
+
+# s.add(elem)
+b.remove("h")
+print(b)
+b.discard("z")
