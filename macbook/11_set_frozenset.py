@@ -38,4 +38,20 @@ print(c <= c1)
 # s.issuperset(t) s >= t
 print(c >= {"h"})
 
+# s.union(t, ...) s | t
+print(b | d)
 
+# s.intersection(t, ...) s & t
+print(d - b)
+
+# s.difference(t, ...) s - t 
+
+# s.symmetric_difference(t) s ^ t
+print(d ^ b)
+
+# s.copy()
+f = e
+g = e.copy()
+print("e:", id(e))
+print("f:", id(f))
+print("g:", id(g))
