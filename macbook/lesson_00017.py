@@ -1,7 +1,4 @@
 # найти среднее значение элементов массива
 
 var_1 = [1, 5, 6, 7]
-sum = 0
-for i in var_1:
-    sum += i   
-print(sum/len(var_1))
+print(eval(str(var_1).replace(', ', '+'))[0]/len(var_1))
