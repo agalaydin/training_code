@@ -10,3 +10,8 @@ for n in a:
 # согласно заданному условию:
 
 print(list(filter(lambda elem: elem < 5, a)))
+
+# наиболее предпочтительный вариант решения этой задачи,
+# списковое включение
+
+print([elem for elem in a if elem < 5])
