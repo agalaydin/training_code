@@ -10,3 +10,8 @@ for n in a:
             ab.append(m)
 ab = set(ab)
 print(ab)
+
+# функция filter
+
+result = list(filter(lambda elem: elem in b, a))
+print(result)
