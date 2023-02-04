@@ -20,3 +20,8 @@ print(result)
 
 result = [elem for elem in a if elem in b]
 print(result)
+
+# можно привести оба списка к множествам и найти их пересечение
+
+result = list(set(a) & set(b))
+print(result)
