@@ -15,3 +15,8 @@ print(ab)
 
 result = list(filter(lambda elem: elem in b, a))
 print(result)
+
+# списковое включение
+
+result = [elem for elem in a if elem in b]
+print(result)
