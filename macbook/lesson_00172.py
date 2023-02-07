@@ -6,5 +6,5 @@ d = {1: ['fish','chips'], 2:['peanut','butter','jelly','time']}
 my_dict = a | b # python 3.9+
 print(my_dict)
 
-my_dict_2 = {**a, **b}
+my_dict_2 = {**a, **b, **c, **d}
 print(my_dict_2)
