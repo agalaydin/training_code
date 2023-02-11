@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// piscine C
+
 int ft_atoi(const char *str)
 {
     int i;
