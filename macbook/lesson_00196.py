@@ -21,6 +21,13 @@ print(item_by_key_v1)
 item_by_key_v2 = dct.get('str_key', 'No item')
 print(item_by_key_v2)
 
-# Удаляем элемент
+# Удаляем элемент с ключом '2' из словаря
+item_deleted = dct.pop(2, 'No item')
+print(item_deleted)
 
+# Получаем ключи словаря
+# Возвращаемое значение: 
+# dict_keys([1, 3, 'str_key', ('it', 'is', 'tuple')])
+keys = dct.keys()
+print(keys)
 
