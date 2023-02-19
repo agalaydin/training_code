@@ -20,3 +20,6 @@ print(my_str.replace('реку', 'поле'))
 # подстроки в список
 lst = my_str.split(' ')
 print(lst)
+
+# Соединяем полученные ранее подстроки обратно
+print(' '.join(lst))
