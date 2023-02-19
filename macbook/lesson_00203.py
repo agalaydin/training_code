@@ -6,6 +6,11 @@ print(my_str)
 print(len(my_str))
 
 # Выполняем конкатенацию строк
-my_str.append('.')
-print(my_str)
+print(my_str + '.')
+
+# Определяем вхождение подстроки 'ре'
+print('ре' in my_str)
+
+# Определяем количество вхождений подстроки 'ре'
+print(my_str.count('ре'))
 
